@@ -40,7 +40,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Deploy to GitHub Pages
-        id: deployment
         uses: actions/deploy-pages@v4 # or specific "vX.X.X" version tag for this action
 ```
 
